@@ -1,0 +1,8 @@
+{
+    "tld": "testing.com",
+    "loopback": "127.0.0.1",
+    "paths": [
+        "/Users/Meilunzhi/.config/valet/Sites",
+        "/Users/Meilunzhi/Code"
+    ]
+}
