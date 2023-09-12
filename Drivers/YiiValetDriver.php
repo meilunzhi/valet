@@ -14,7 +14,7 @@ class YiiValetDriver extends ValetDriver
      * @param  string  $uri
      * @return bool
      */
-    public function serves(string $sitePath, string $siteName, string $uri): string
+    public function serves(string $sitePath, string $siteName, string $uri): bool
     {
         return file_exists($sitePath . '/../yii') || file_exists($sitePath . '/yii');
     }
